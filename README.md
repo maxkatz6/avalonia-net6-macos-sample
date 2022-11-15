@@ -1,0 +1,1 @@
+# avalonia-net6-macos-sample
