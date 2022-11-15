@@ -5,5 +5,5 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="avalonia_net6_macos_sample.MainWindow"
         Title="avalonia_net6_macos_sample">
-    Welcome to Avalonia!
+	<Button Content="Press me" Click="Button_Clicked" />
 </Window>
