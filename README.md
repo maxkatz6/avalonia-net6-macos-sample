@@ -4,7 +4,7 @@ Default Avalonia template from https://github.com/AvaloniaUI/avalonia-dotnet-tem
 But if you want to use build-in .NET bundling mechanism and have access to the macOS native APIs, you can choose a new "net6.0-macos" target framework.
 Changes from the default template:
 1. Change target framework from "net6.0" to "net6.0-macos". Multitarget or multiple projects can help with cross platfom.
-2. Add `<RuntimeIdentifier>osx-x64</RuntimeIdentifier>` (optional in later .NET SDK versions, as they will prepare combined x64 and arm build for you)
+2. ~Add `<RuntimeIdentifier>osx-x64</RuntimeIdentifier>`~ (optional in later .NET SDK versions, as they will prepare combined x64 and arm build for you)
 3. Add `<SelfContained>true</SelfContained>` as macOS bundle can only be self-contained.
 4. Add configured Info.plist file to your project. 
 5. If you use macOS APIs, don't forget to call `NSApplication.Init();` from your `Main` method.
